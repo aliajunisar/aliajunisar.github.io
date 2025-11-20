@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <title> Satonda GIS | Final Project MAPID Academy WebGIS Development </title>
+    </head>
+    
+    <body style="margin: 0; font-family: Montserrat, sans-serif; line-height: 1.6">
+        <!-- Navbar -->
+        <nav
+            class="flex justify-between items-center max-w-screen bg-[#1A3D64] text-[#F4F4F4]"
+            style="padding: 15px 5%;"
+        >
+            <ul style="display: flex; list-style: none; 
+                        gap: 30px; margin: 0; padding: 0; 
+                        color: #F4F4F4; text-decoration: none; 
+                        font-weight: bold">
+                <li><a href="Home.html" class="hover:text-rose-400">Home</a></li>
+                <li><a href="Map2.html" class="hover:text-rose-400">Map</a></li>
+                <li><a href="About Me.html" class="hover:text-rose-400">About Me</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero -->
+        <section
+            class="flex flex-col md:flex-row items-center justify-between h-screen bg-cover bg-center bg-no-repeat"
+            style="padding: 20px 5%; background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255,255,255,0.6)), 
+                    url('https://upload.wikimedia.org/wikipedia/commons/2/2e/Coral_Outcrop_Flynn_Reef.jpg');">
+            
+            <div class="flex-1 pr-0 pt-11 md:pr-10 md:pt-0 text-black">
+                <h1 class="text-4xl font-bold md:text-6xl mb-5">Satonda Benthic Habitat Geographic Information System (Satonda GIS)</h1>
+                <p class="text-base font-medium md:text-xl mb-10">
+                    Welcome to the Satonda GIS web application. This platform provides information about the benthic habitat surrounding Satonda Island shallow water. 
+                    Explore the interactive map to learn more about the benthic compositions and their distributions.</p>
+                <a href="Map2.html"><button
+                    class="px-5 
+                    py-2.5 
+                    bg-red-600 
+                    text-white 
+                    rounded 
+                    cursor-pointer 
+                    hover:bg-red-700">
+                    Go to Map
+                </button></a>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer class="flex flex-col md:flex-row justify-center" 
+            style="text-align: center; padding: 2%; background: #0C2B4E; color: white">
+            <p>&copy; 2025 Alia Junisar Shafira. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
